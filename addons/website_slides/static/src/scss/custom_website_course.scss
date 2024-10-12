@@ -1,0 +1,295 @@
+/* Dark theme for Odoo Courses */
+
+// General styles
+body,
+#wrap {
+//   background-color: #1e1e1e !important;
+//   color: #e0e0e0 !important;
+}
+
+.o_wslides_course_main{
+     background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+     height: 100% !important;
+     padding-bottom: 200px !important;
+}
+
+// Course header
+.o_wslides_course_header {
+//   background-color: #2a2a2a !important;
+
+  h1 {
+    color: #f0f0f0 !important;
+  }
+}
+
+// Navigation
+.o_wslides_course_nav {
+  background-color: #2a2a2a !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+
+  .breadcrumb {
+    background-color: transparent !important;
+
+    .breadcrumb-item {
+      color: #b0b0b0 !important;
+
+      a {
+        color: #f5f5f5 !important;
+
+        &:hover {
+          color: #ffffff !important;
+        }
+      }
+
+      &.active {
+        color: #ffffff !important;
+      }
+    }
+  }
+}
+
+// Search box
+.o_wslides_course_nav_search {
+  .form-control {
+  
+
+   
+
+    &:focus {
+      background-color: #606060 !important;
+      border-color: #7d7d7d !important;
+      box-shadow: 0 0 0 0.2rem rgba(102, 179, 255, 0.25) !important;
+    }
+  }
+}
+
+// Course sidebar
+.o_wslides_course_sidebar {
+  background-color: #2e2e2e !important;
+
+  table {
+    color: #f0f0f0 !important;
+
+    --table-bg: #2e2e2e;
+
+    background-color: #2e2e2e !important;
+    tbody {
+      background-color: #2e2e2e !important;
+    }
+    tr {
+      background-color: #2e2e2e !important;
+    }
+    th {
+      border-color: #606060 !important;
+    }
+
+    td {
+      border-color: #606060 !important;
+    }
+  }
+
+  .btn-link {
+    color: #f5f5f5 !important;
+
+    &:hover {
+      color: #ffffff !important;
+    }
+  }
+
+  button {
+    background-color: #1e1e1e !important;
+
+    &:hover {
+      background-color: #444444 !important;
+    }
+  }
+}
+
+// Tabs
+.nav-tabs {
+  border-bottom-color: #606060 !important;
+
+  .nav-link {
+
+    &.active {
+      background-color: #2e2e2e !important;
+      border-color: #606060 #606060 #2e2e2e !important;
+      color: #f5f5f5 !important;
+    }
+
+    &:hover {
+      border-color: #606060 #606060 #606060 !important;
+    }
+  }
+}
+
+.tab-content {
+  background-color: #2e2e2e !important;
+}
+
+// Buttons
+.btn-primary {
+  background-color: #039be5 !important;
+  border-color: #03a9f4 !important;
+  color: #ffffff !important;
+
+  &:hover {
+    background-color: #03a9f4 !important;
+    border-color: #29b6f6 !important;
+  }
+}
+
+// Alerts
+.alert {
+  &.alert-success {
+    background-color: #388e3c !important;
+    border-color: #4caf50 !important;
+    color: #ffffff !important;
+  }
+
+  &.alert-danger {
+    background-color: #d32f2f !important;
+    border-color: #f44336 !important;
+    color: #ffffff !important;
+  }
+}
+
+// Progress bar
+.progress {
+  background-color: #444444 !important;
+
+  .progress-bar {
+    background-color: #039be5 !important;
+  }
+}
+
+// Badges
+.badge {
+  &.text-bg-success {
+    background-color: #388e3c !important;
+    color: #ffffff !important;
+  }
+
+  &.text-bg-primary {
+    background-color: #039be5 !important;
+    color: #ffffff !important;
+  }
+}
+
+/* Course content list */
+.o_wslides_slides_list {
+  .o_wslides_slide_list_category {
+    .o_wslides_slide_list_category_header {
+      background-color: #2e2e2e !important;
+      border-color: #606060 !important;
+
+      span {
+        color: #f0f0f0 !important;
+      }
+
+      small {
+        color: #b0b0b0 !important;
+      }
+    }
+
+    ul {
+      border-color: #606060 !important;
+    }
+  }
+
+  .o_wslides_slides_list_slide {
+    background-color: #2a2a2a !important;
+    border-color: #606060 !important;
+
+    i {
+      color: #b0b0b0 !important;
+    }
+
+    span {
+      color: #f0f0f0 !important;
+    }
+
+    .badge {
+      &.text-bg-warning {
+        background-color: #ffa000 !important;
+        color: #1e1e1e !important;
+      }
+
+      &.text-bg-info {
+        background-color: #0288d1 !important;
+        color: #ffffff !important;
+      }
+
+      &.text-bg-success {
+        background-color: #388e3c !important;
+        color: #ffffff !important;
+      }
+    }
+  }
+}
+
+// Content actions
+.o_wslides_content_actions {
+  .btn-primary {
+    background-color: #039be5 !important;
+    border-color: #03a9f4 !important;
+    color: #ffffff !important;
+
+    &:hover {
+      background-color: #03a9f4 !important;
+      border-color: #29b6f6 !important;
+    }
+  }
+
+  .btn-light {
+    background-color: #2e2e2e !important;
+    border-color: #606060 !important;
+    color: #f0f0f0 !important;
+
+    &:hover {
+      background-color: #444444 !important;
+    }
+  }
+}
+
+// Course placeholder and sample content
+.text-muted {
+  color: #b0b0b0 !important;
+}
+
+.fw-bold {
+  color: #f0f0f0 !important;
+}
+
+.card {
+  background-color: #2e2e2e !important;
+  border-color: #606060 !important;
+}
+
+.bg-white-50 {
+  background-color: #2a2a2a !important;
+}
+
+.o_ribbon_right {
+  background-color: #039be5 !important;
+  color: #ffffff !important;
+}
+
+// Icons
+.fa {
+  color: #b0b0b0 !important;
+}
+
+// Description
+[t-field="channel.description_html"] {
+  color: #e0e0e0 !important;
+
+  a {
+    color: #4fc3f7 !important;
+
+    &:hover {
+      color: #81d4fa !important;
+    }
+  }
+}
